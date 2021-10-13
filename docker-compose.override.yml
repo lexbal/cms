@@ -1,0 +1,8 @@
+ersion: "3.8"
+services:
+  frontend:
+    volumes:
+      - ./frontend:/usr/src/app/
+      - /usr/src/app/node_modules
+    ports:
+      - "4201:4201"
